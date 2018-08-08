@@ -4,9 +4,9 @@ $(document).ready(function() {
     var foodInput = $("input#food").val();
     var numberInput = $("input#number").val();
     var adjectiveInput = $("input#adjective").val();
-    var nounPluralInput = $("inpute#nounPlural").val();
+    var nounPluralInput = $("input#nounplural").val();
     var nounInput = $("input#noun").val();
-    var partOfBodyInput = $("input#partOfBody").val()
+    var partOfBodyInput = $("input#partofbody").val()
 
     $(".animal").text(animalInput);
     $(".food").text(foodInput);
